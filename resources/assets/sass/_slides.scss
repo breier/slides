@@ -2,22 +2,30 @@ div.flex-center {
     >div {
         display: inline-block;
         vertical-align: top;
+        padding: 10px;
+        height: 100%;
     }
     .pannel {
         width: 250px;
-        .video, .video>video {
-            width: 240px;
-            height: 180px;
-        }
-        .title {
-            transform: rotate(270deg);
-            display: inline-block;
-            white-space: nowrap;
-            font-size: 80px;
+        color: #AEAEAE;
+        font-weight: bold;
+        font-family: monospace;
+        background: #333 url("/background.png") repeat;
+        .video video {
+            width: 230px;
+            margin-bottom: 20px;
         }
     }
     .slides {
-        width: 50%;
+        width: calc(100% - 500px - 10px);
         border: dotted 2px yellow;
+    }
+    .questions {
+        width: 250px;
+        background: #E5F2F2 url("/background.png") repeat;
+        h4 {
+            font-weight: bold;
+            font-family: monospace;
+        }
     }
 }

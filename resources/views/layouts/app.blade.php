@@ -9,6 +9,9 @@
         <script type="text/javascript" src="{{ URL::asset('/js/app.js') }}"></script>
     </head>
     <body>
+        <div class="navbar">
+            @yield('title')
+        </div>
         <div class="flex-center position-ref full-height">
             @yield('content')
         </div>

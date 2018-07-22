@@ -9,6 +9,9 @@
         <script type="text/javascript" src="<?php echo e(URL::asset('/js/app.js')); ?>"></script>
     </head>
     <body>
+        <div class="navbar">
+            <?php echo $__env->yieldContent('title'); ?>
+        </div>
         <div class="flex-center position-ref full-height">
             <?php echo $__env->yieldContent('content'); ?>
         </div>

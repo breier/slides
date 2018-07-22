@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Nunito);/*!
+/*!
  * Bootstrap v4.1.2 (https://getbootstrap.com/)
  * Copyright 2011-2018 The Bootstrap Authors
  * Copyright 2011-2018 Twitter, Inc.
@@ -32,7 +32,7 @@
   --breakpoint-md: 768px;
   --breakpoint-lg: 992px;
   --breakpoint-xl: 1200px;
-  --font-family-sans-serif: "Nunito", sans-serif;
+  --font-family-sans-serif: "Cantarel", sans-serif;
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
@@ -71,7 +71,7 @@ section {
 
 body {
   margin: 0;
-  font-family: "Nunito", sans-serif;
+  font-family: "Cantarel", sans-serif;
   font-size: 0.9rem;
   font-weight: 400;
   line-height: 1.6;
@@ -6322,7 +6322,7 @@ button.close {
   z-index: 1070;
   display: block;
   margin: 0;
-  font-family: "Nunito", sans-serif;
+  font-family: "Cantarel", sans-serif;
   font-style: normal;
   font-weight: 400;
   line-height: 1.6;
@@ -6447,7 +6447,7 @@ button.close {
   z-index: 1060;
   display: block;
   max-width: 276px;
-  font-family: "Nunito", sans-serif;
+  font-family: "Cantarel", sans-serif;
   font-style: normal;
   font-weight: 400;
   line-height: 1.6;
@@ -10480,31 +10480,46 @@ body > div.full-height {
           box-sizing: border-box;
 }
 
+body > div.navbar {
+  height: 54px;
+  color: #EAEAEA;
+  font-size: 1.6em;
+  font-weight: bold;
+  background-color: #444;
+  border-bottom: solid 1px #222;
+}
+
+body > div.full-height {
+  height: calc(100% - 54px);
+}
+
 div.flex-center > div {
   display: inline-block;
   vertical-align: top;
+  padding: 10px;
+  height: 100%;
 }
 
 div.flex-center .pannel {
   width: 250px;
+  color: #AEAEAE;
+  font-weight: bold;
+  font-family: monospace;
+  background: #333 url("/background.png") repeat;
 }
 
-div.flex-center .pannel .video,
-div.flex-center .pannel .video > video {
-  width: 240px;
-  height: 180px;
-}
-
-div.flex-center .pannel .title {
-  -webkit-transform: rotate(270deg);
-          transform: rotate(270deg);
-  display: inline-block;
-  white-space: nowrap;
-  font-size: 80px;
+div.flex-center .pannel .video video {
+  width: 230px;
+  margin-bottom: 20px;
 }
 
 div.flex-center .slides {
-  width: 50%;
+  width: calc(100% - 500px - 10px);
   border: dotted 2px yellow;
+}
+
+div.flex-center .questions {
+  width: 250px;
+  background-color: #E5F2F2;
 }
 
