@@ -20,4 +20,4 @@ Route::get('/', function () {
  */
 Route::get('/ask', function () {
     return view('ask');
-});
+})->name('slides.ask');

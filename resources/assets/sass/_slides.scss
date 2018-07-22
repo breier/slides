@@ -1,9 +1,9 @@
 div.flex-center {
     >div {
-        display: inline-block;
-        vertical-align: top;
-        padding: 10px;
         height: 100%;
+        padding: 10px;
+        vertical-align: top;
+        display: inline-block;
     }
     .pannel {
         width: 250px;
@@ -26,6 +26,25 @@ div.flex-center {
         h4 {
             font-weight: bold;
             font-family: monospace;
+        }
+        .question-asked {
+            padding: 10px;
+            border-radius: 8px;
+            margin-bottom: 10px;
+            background-color: #FAFAFA;
+            .user-name {
+                font-weight: bold;
+            }
+            .user-message {
+                line-height: 1em;
+            }
+        }
+        .ask-link {
+            bottom: 10px;
+            position: absolute;
+            border-radius: 3px;
+            background-color: #F3F3F3;
+            border: solid 1px #D1D1D1;
         }
     }
 }

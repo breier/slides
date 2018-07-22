@@ -34,10 +34,11 @@
       19 => 'Illuminate\\Translation\\TranslationServiceProvider',
       20 => 'Illuminate\\Validation\\ValidationServiceProvider',
       21 => 'Illuminate\\View\\ViewServiceProvider',
-      22 => 'App\\Providers\\AppServiceProvider',
-      23 => 'App\\Providers\\AuthServiceProvider',
-      24 => 'App\\Providers\\EventServiceProvider',
-      25 => 'App\\Providers\\RouteServiceProvider',
+      22 => 'SimpleSoftwareIO\\QrCode\\QrCodeServiceProvider',
+      23 => 'App\\Providers\\AppServiceProvider',
+      24 => 'App\\Providers\\AuthServiceProvider',
+      25 => 'App\\Providers\\EventServiceProvider',
+      26 => 'App\\Providers\\RouteServiceProvider',
     ),
     'aliases' => 
     array (
@@ -63,6 +64,7 @@
       'Notification' => 'Illuminate\\Support\\Facades\\Notification',
       'Password' => 'Illuminate\\Support\\Facades\\Password',
       'Queue' => 'Illuminate\\Support\\Facades\\Queue',
+      'QrCode' => 'SimpleSoftwareIO\\QrCode\\Facades\\QrCode',
       'Redirect' => 'Illuminate\\Support\\Facades\\Redirect',
       'Redis' => 'Illuminate\\Support\\Facades\\Redis',
       'Request' => 'Illuminate\\Support\\Facades\\Request',

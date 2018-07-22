@@ -1,0 +1,10 @@
+div.flex-center div#ask-form {
+    display: block;
+    padding-top: 20px;
+    background: url('/background.png') repeat;
+    @media (min-width: 992px) {
+        button {
+            margin-top: 40px;
+        }
+    }
+}

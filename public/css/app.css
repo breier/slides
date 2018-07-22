@@ -10494,10 +10494,10 @@ body > div.full-height {
 }
 
 div.flex-center > div {
-  display: inline-block;
-  vertical-align: top;
-  padding: 10px;
   height: 100%;
+  padding: 10px;
+  vertical-align: top;
+  display: inline-block;
 }
 
 div.flex-center .pannel {
@@ -10520,6 +10520,46 @@ div.flex-center .slides {
 
 div.flex-center .questions {
   width: 250px;
-  background-color: #E5F2F2;
+  background: #E5F2F2 url("/background.png") repeat;
+}
+
+div.flex-center .questions h4 {
+  font-weight: bold;
+  font-family: monospace;
+}
+
+div.flex-center .questions .question-asked {
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  background-color: #FAFAFA;
+}
+
+div.flex-center .questions .question-asked .user-name {
+  font-weight: bold;
+}
+
+div.flex-center .questions .question-asked .user-message {
+  line-height: 1em;
+}
+
+div.flex-center .questions .ask-link {
+  bottom: 10px;
+  position: absolute;
+  border-radius: 3px;
+  background-color: #F3F3F3;
+  border: solid 1px #D1D1D1;
+}
+
+div.flex-center div#ask-form {
+  display: block;
+  padding-top: 20px;
+  background: url("/background.png") repeat;
+}
+
+@media (min-width: 992px) {
+  div.flex-center div#ask-form button {
+    margin-top: 40px;
+  }
 }
 
