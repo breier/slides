@@ -284,6 +284,13 @@
         'url' => 'http://slides.breier.net.br//storage',
         'visibility' => 'public',
       ),
+      'slides' => 
+      array (
+        'driver' => 'local',
+        'root' => '/home/breier/Apps/dev/slides/public/slides',
+        'url' => 'http://slides.breier.net.br//slides',
+        'visibility' => 'public',
+      ),
       's3' => 
       array (
         'driver' => 's3',

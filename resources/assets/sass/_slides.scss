@@ -5,7 +5,7 @@ div.flex-center {
         vertical-align: top;
         display: inline-block;
     }
-    .pannel {
+    #pannel {
         width: 250px;
         color: #AEAEAE;
         font-weight: bold;
@@ -15,8 +15,21 @@ div.flex-center {
             width: 230px;
             margin-bottom: 20px;
         }
+        .index {
+            overflow-y: auto;
+            max-height: 400px;
+            li {
+                margin-left: -25px;
+                a {
+                    color: #9DBFDB;
+                }
+                a:not(.active) {
+                    font-weight: normal;
+                }
+            }
+        }
     }
-    .slides {
+    #slides {
         width: calc(100% - 500px - 10px);
         border: dotted 2px yellow;
     }

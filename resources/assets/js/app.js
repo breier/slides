@@ -15,8 +15,10 @@ window.Vue = require('vue');
  * or customize the JavaScript scaffolding to fit your unique needs.
  */
 
-Vue.component('example-component', require('./components/ExampleComponent.vue'));
+if ($("#slides").length) {
+    require('./slides')
+}
 
-const app = new Vue({
-    el: '#app'
-});
+if ($("#ask-form").length) {
+    require('./ask')
+}

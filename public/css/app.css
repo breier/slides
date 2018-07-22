@@ -10500,7 +10500,7 @@ div.flex-center > div {
   display: inline-block;
 }
 
-div.flex-center .pannel {
+div.flex-center #pannel {
   width: 250px;
   color: #AEAEAE;
   font-weight: bold;
@@ -10508,12 +10508,29 @@ div.flex-center .pannel {
   background: #333 url("/background.png") repeat;
 }
 
-div.flex-center .pannel .video video {
+div.flex-center #pannel .video video {
   width: 230px;
   margin-bottom: 20px;
 }
 
-div.flex-center .slides {
+div.flex-center #pannel .index {
+  overflow-y: auto;
+  max-height: 400px;
+}
+
+div.flex-center #pannel .index li {
+  margin-left: -25px;
+}
+
+div.flex-center #pannel .index li a {
+  color: #9DBFDB;
+}
+
+div.flex-center #pannel .index li a:not(.active) {
+  font-weight: normal;
+}
+
+div.flex-center #slides {
   width: calc(100% - 500px - 10px);
   border: dotted 2px yellow;
 }

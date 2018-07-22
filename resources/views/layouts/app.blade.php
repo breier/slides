@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>AB Slides</title>
         <link rel="stylesheet" href="{{ URL::asset('/css/app.css') }}" type="text/css">
-        <script type="text/javascript" src="{{ URL::asset('/js/app.js') }}"></script>
+        <script type="text/javascript" src="{{ URL::asset('/js/app.js') }}" defer></script>
     </head>
     <body>
         <div class="navbar">
