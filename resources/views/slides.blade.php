@@ -2,9 +2,23 @@
 
 @section('content')
     <div class="pannel">
-        <div class="square">
-            video html5 cam
+        <div class="video">
+            <video autoplay="true" id="videoElement"></video>
+            <script type="text/javascript">
+                var video = document.querySelector("#videoElement");
+
+                if (navigator.mediaDevices.getUserMedia) {
+                    navigator.mediaDevices.getUserMedia({video: true})
+                        .then(function(stream) {
+                            video.srcObject = stream;
+                        })
+                        .catch(function(err0r) {
+                            console.log("Something went wrong!");
+                        });
+                }
+            </script>
         </div>
+        <div class="clearfix"></div>
         <div class="title">
             AB SLIDES
         </div>

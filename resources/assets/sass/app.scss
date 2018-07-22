@@ -8,6 +8,7 @@
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
 
+// Default Body
 html, body, body>div.full-height {
     margin: 0;
     padding: 0;
@@ -15,3 +16,6 @@ html, body, body>div.full-height {
     height: 100%;
     box-sizing: border-box;
 }
+
+// Slides Page
+@import 'slides';

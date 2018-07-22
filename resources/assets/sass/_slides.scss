@@ -1,0 +1,23 @@
+div.flex-center {
+    >div {
+        display: inline-block;
+        vertical-align: top;
+    }
+    .pannel {
+        width: 250px;
+        .video, .video>video {
+            width: 240px;
+            height: 180px;
+        }
+        .title {
+            transform: rotate(270deg);
+            display: inline-block;
+            white-space: nowrap;
+            font-size: 80px;
+        }
+    }
+    .slides {
+        width: 50%;
+        border: dotted 2px yellow;
+    }
+}

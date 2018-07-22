@@ -10480,3 +10480,31 @@ body > div.full-height {
           box-sizing: border-box;
 }
 
+div.flex-center > div {
+  display: inline-block;
+  vertical-align: top;
+}
+
+div.flex-center .pannel {
+  width: 250px;
+}
+
+div.flex-center .pannel .video,
+div.flex-center .pannel .video > video {
+  width: 240px;
+  height: 180px;
+}
+
+div.flex-center .pannel .title {
+  -webkit-transform: rotate(270deg);
+          transform: rotate(270deg);
+  display: inline-block;
+  white-space: nowrap;
+  font-size: 80px;
+}
+
+div.flex-center .slides {
+  width: 50%;
+  border: dotted 2px yellow;
+}
+
