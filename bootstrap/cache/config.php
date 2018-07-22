@@ -3,8 +3,8 @@
   array (
     'name' => 'Slides',
     'env' => 'slides',
-    'debug' => true,
-    'url' => 'http://localhost',
+    'debug' => false,
+    'url' => 'http://slides.breier.net.br/',
     'timezone' => 'UTC',
     'locale' => 'en',
     'fallback_locale' => 'en',
@@ -214,7 +214,7 @@
       'mysql' => 
       array (
         'driver' => 'mysql',
-        'host' => 'localhost',
+        'host' => 'pgsql.breier.net.br',
         'port' => '5432',
         'database' => 'breier3',
         'username' => 'breier3',
@@ -229,7 +229,7 @@
       'pgsql' => 
       array (
         'driver' => 'pgsql',
-        'host' => 'localhost',
+        'host' => 'pgsql.breier.net.br',
         'port' => '5432',
         'database' => 'breier3',
         'username' => 'breier3',
@@ -242,7 +242,7 @@
       'sqlsrv' => 
       array (
         'driver' => 'sqlsrv',
-        'host' => 'localhost',
+        'host' => 'pgsql.breier.net.br',
         'port' => '5432',
         'database' => 'breier3',
         'username' => 'breier3',
@@ -279,7 +279,7 @@
       array (
         'driver' => 'local',
         'root' => '/home/breier/Apps/dev/slides/storage/app/public',
-        'url' => 'http://localhost/storage',
+        'url' => 'http://slides.breier.net.br//storage',
         'visibility' => 'public',
       ),
       's3' => 
